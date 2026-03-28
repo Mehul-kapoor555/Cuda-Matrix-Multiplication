@@ -29,7 +29,9 @@ The goal is to compare performance and implementation complexity between optimiz
 ## Project Structure
 
 src/
+
 ├── cublas_matmul.cu
+
 └── thrust_matmul.cu
 
 
