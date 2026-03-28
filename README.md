@@ -44,14 +44,20 @@ Make sure CUDA Toolkit is installed.
 ### Compile cuBLAS version
 ```bash
 nvcc src/cublas_matmul.cu -lcublas -o cublas_matmul
+```
 
-**### Compile Thrust version **
+### Compile Thrust version
+```bash
 nvcc src/thrust_matmul.cu -o thrust_matmul
+```
 
-**### How to Run**
+### How to Run
+```bash
 ./cublas_matmul
 ./thrust_matmul
-Results
+```
+
+## Results
 cuBLAS provides highly optimized performance for matrix multiplication
 Thrust implementation demonstrates parallel abstraction but is less efficient
 GPU implementation significantly outperforms CPU for large matrix sizes
