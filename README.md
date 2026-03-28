@@ -58,15 +58,15 @@ nvcc src/thrust_matmul.cu -o thrust_matmul
 ```
 
 ## Results
-•	cuBLAS provides highly optimized performance for matrix multiplication
-•	Thrust implementation demonstrates parallel abstraction but is less efficient
-•	GPU implementation significantly outperforms CPU for large matrix sizes
+- cuBLAS provides highly optimized performance for matrix multiplication
+- Thrust implementation demonstrates parallel abstraction but is less efficient
+- GPU implementation significantly outperforms CPU for large matrix sizes
 
 ## Learning Outcomes
-•	Understanding GPU parallelism
-•	Using cuBLAS for optimized computations
-•	Comparing different GPU programming approaches
-•	Performance benchmarking in CUDA
+- Understanding GPU parallelism
+- Using cuBLAS for optimized computations
+- Comparing different GPU programming approaches
+- Performance benchmarking in CUDA
 
 ## Author
 Mehul Kapoor
