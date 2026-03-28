@@ -30,7 +30,7 @@ The goal is to compare performance and implementation complexity between optimiz
 
 src/
 ├── cublas_matmul.cu
-├── thrust_matmul.cu
+└── thrust_matmul.cu
 
 
 ---
